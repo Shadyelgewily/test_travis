@@ -11,5 +11,8 @@ class TestBla(unittest.TestCase):
     def test_name_2(self):
         self.assertEqual(display_name('Shady'), 'Shady')
 
+    def test_name_3(self):
+        self.assertEqual(display_name(''), '')
+
 if __name__ == '__main__':
     unittest.main()
