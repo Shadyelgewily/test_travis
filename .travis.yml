@@ -6,7 +6,7 @@ install:
 script:
  - python -m unittest tests/tests_bla.py
 deploy:
- - provider: heroku
- - api_key:
- -    secure: "3a186ccf-82eb-4f18-ab6b-2d358f6968e2"
- - app: shadys-rental-pricing
+  provider: heroku
+  api_key:
+    secure: "3a186ccf-82eb-4f18-ab6b-2d358f6968e2"
+
