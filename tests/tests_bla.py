@@ -12,7 +12,7 @@ class TestBla(unittest.TestCase):
         self.assertEqual(display_name('Shady'), 'Shady')
 
     def test_name_3(self):
-        self.assertEqual(display_name('a'), 'a')
+        self.assertEqual(display_name('a'), 'A')
 
 if __name__ == '__main__':
     unittest.main()
